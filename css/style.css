@@ -1,3 +1,18 @@
+@import 'fonts.css';
+
+:root {
+   --primary-green-color: #5fb4a2;
+   --primary-dark-blue-color: #203a4c;
+   --primary-grey-blue-color: #33323d;
+   --secondary-light-bg-color: #fafafa;
+   --secondary-grey-text-color: #eaeaea;
+   --secondary-red-errors-color: #f43030;
+
+
+   --ibarra-font-family: 'Ibarra Real Nova', sans-serif;
+   --sans-font-family: 'Public Sans', 'Arial', sans-serif;
+}
+
 * {
    margin: 0;
    padding: 0;
@@ -24,12 +39,16 @@ body {
    height: 100%;
    font-family: sans-serif;
    font-size: 16px;
-   line-height: 1.5;
+   line-height: 30px;
+   font-family: var(--sans-font-family);
+   color: var(--primary-grey-blue-color);
+
 }
 
 .container {
-   max-width: 1100px;
+   max-width: 1148px;
    width: 100%;
+   padding: 0 24px;
    margin: 0 auto;
 }
 
