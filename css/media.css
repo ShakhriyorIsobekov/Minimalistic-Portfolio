@@ -1,0 +1,162 @@
+@media screen and (max-width: 1000px) {
+   .hero {
+      padding: 0 0 75px 0;
+   }
+
+   .hero__title {
+      max-width: 458px;
+      width: 100%;
+      font-size: 40px;
+      line-height: 42px;
+      margin-bottom: 48px;
+   }
+
+   .aboutme__ava {
+      width: 100%;
+      height: 600px;
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .header__menu-wrapper {
+      display: block;
+   }
+
+   .header__list {
+      display: none;
+   }
+
+   .header__list-open {
+      display: block;
+      flex-direction: column;
+      position: absolute;
+      width: 100%;
+      background-color: #33323d;
+      top: 100%;
+      left: 0;
+      text-align: center;
+      padding: 20px 0;
+      z-index: 1;
+   }
+
+   .header__link {
+      display: inline-block;
+      color: #fff;
+      margin-bottom: 10px;
+   }
+
+   .hero {
+      padding-bottom: 40px;
+   }
+
+   .hero__info {
+      position: static;
+      padding: 30px 30px 0 0;
+   }
+
+   .hero__title {
+      margin-bottom: 15px;
+   }
+
+   .aboutme, .interested {
+      padding: 40px 0;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .aboutme__content {
+      flex-direction: column;
+      row-gap: 20px;
+   }
+
+   .aboutme__img {
+      margin-right: 0;
+   }
+
+   .aboutme__ava {
+      height: auto;
+      object-fit: cover;
+      margin-right: 0;
+   }
+
+   .aboutme__info {
+      max-width: none;
+      padding-bottom: 10px;
+   }
+
+   .aboutme__title {
+      margin: 24px 0;
+   }
+
+   .aboutme__text {
+      text-align: justify;
+   }
+
+   .interested__line {
+      display: none;
+   }
+
+   .footer__content {
+      flex-direction: column;
+      row-gap: 25px;
+   }
+
+   .footer__logo, .footer__list {
+      margin-right: 0;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .interested__content {
+      flex-direction: column;
+      row-gap: 10px;
+      text-align: center;
+   }
+
+   .interested__title {
+      max-width: none;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .container {
+      padding: 0 10px;
+   }
+
+   .hero__title {
+      max-width: 311px;
+      width: 100%;
+      margin-bottom: 5px;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   .header {
+      padding: 30px 0;
+   }
+
+   .hero__info {
+      text-align: center;
+      padding: 20px 0 0 0;
+   }
+
+   .hero__title, .aboutme__title, .interested__title {
+      max-width: 100%;
+      width: 100%;
+      font-size: 32px;
+      line-height: 30px;
+   }
+
+   .hero {
+      padding-bottom: 20px;
+   }
+
+   .aboutme, .interested {
+      padding: 20px 0;
+   }
+
+   .footer__list {
+      flex-direction: column;
+      row-gap: 15px;
+   }
+}

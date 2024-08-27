@@ -69,6 +69,7 @@ img {
    border: 0;
    font-size: 12px;
    line-height: 14px;
+   white-space: nowrap;
 }
 
 .button-blue {
@@ -109,6 +110,7 @@ img {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   position: relative;
 }
 
 .header__logo {
@@ -130,7 +132,7 @@ img {
    opacity: 0.6;
 }
 
-.haeder__list {
+.header__list {
    display: flex;
    column-gap: 43px;
 }
@@ -140,7 +142,7 @@ img {
    font-size: 12px;
    line-height: 14px;
    letter-spacing: 2px;
-   transition: all 0.4s ease;
+   transition: all 0.2s ease;
 }
 
 .header__link:hover {
@@ -150,6 +152,11 @@ img {
 .header__link:active {
    opacity: 0.6;
 }
+
+.header__menu-wrapper {
+   display: none;
+}
+
 /* Header ends */
 
 /* Main starts */
@@ -199,6 +206,7 @@ img {
 
 .aboutme__img {
    display: block;
+   margin-right: 20px;
 }
 
 .aboutme__ava {
@@ -230,7 +238,7 @@ img {
 
 /* INTERESTED */
 
-.interested__section {
+.interested {
    padding: 75px 0;
 }
 
@@ -245,6 +253,7 @@ img {
    max-width: 534px;
    width: 100%;
    opacity: 15%;
+   margin: 0 20px;
 }
 
 .interested__title {
@@ -295,7 +304,7 @@ img {
 }
 
 .footer__link {
-   display: inline-block;
+   display: block;
    color: var(--secondary-white-color);
    font-size: 12px;
    line-height: 14px;
