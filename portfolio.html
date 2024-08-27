@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Minimalistic Portfolio</title>
+   <title> Portfolio</title>
    <!-- STYLES -->
    <link rel="icon" href="img/logo-white.svg">
    <link rel="stylesheet" href="css/normalize.css">
@@ -34,13 +34,13 @@
             <nav class="header__nav nav">
                <ul class="header__list">
                   <li class="header__item">
-                     <a href="" class="header__link">HOME</a>
+                     <a href="index.html" class="header__link">HOME</a>
                   </li>
                   <li class="header__item">
                      <a href="portfolio.html" class="header__link">PORTFOLIO</a>
                   </li>
                   <li class="header__item">
-                     <a href="" class="header__link">CONTACT ME</a>
+                     <a href="contact.html" class="header__link">CONTACT ME</a>
                   </li>
                </ul>
             </nav>
@@ -55,43 +55,110 @@
 
    <!-- Main starts -->
    <main class="main">
-      <section class="main__section hero">
+
+      <section class="main__section manage">
          <div class="container">
-            <div class="hero__content">
-               <div class="hero__bg-wrapper">
-                  <img class="hero__img" src="./img/hero-bg.png" alt="img of big tablet" width="1110" height="600"
-                     srcset="./img/hero-bg.png 1x, ./img/hero-bg@2x.png 2x">
-               </div>
-               <div class="hero__info">
-                  <h1 class="hero__title">
-                     Hey, I’m Alex Spencer and I love building beautiful websites
-                  </h1>
-                  <a href="about.html" class="button button-blue hero__button">ABOUT ME</a>
+            <div class="manage__cards">
+               <div class="manage__card">
+                  <div class="manage__img-wraper">
+                     <a href="manage.html" class="manage__img-link">
+                        <img class="manage__card-img" src="./img/manage-preview-desktop.png" alt="manage img"
+                           width="540" height="500" srcset="./img/manage-preview-desktop.png 1x, ./img/manage-preview-desktop@2x.png 2x">
+                     </a>
+                  </div>
+                  <div class="manage__card-info">
+                     <a href="" class="manage__card-link">
+                        <h4 class="manage__card-title">
+                           Manage
+                        </h4>
+                     </a>
+                     <p class="manage__card-text">
+                        This project required me to build a fully responsive landing page to the designs provided. I
+                        used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such
+                        as the testimonial slider.
+                     </p>
+                     <a href="manage.html" class="button button-white manage__card-btn">VIEW PROJECT</a>
+                  </div>
                </div>
             </div>
          </div>
       </section>
 
-      <section class="main__section aboutme">
+      <section class="main__section bookmark">
          <div class="container">
-            <div class="aboutme__content">
-               <div class="aboutme__img">
-                  <img class="aboutme__ava" src="./img/about-me-img-desktop.png" alt="ava of me" width="540"
-                     height="600" srcset="./img/about-me-img-desktop.png 1x, ./img/about-me-img-desktop@2x.png 2x">
+            <div class="bookmark__cards">
+               <div class="bookmark__card">
+                  <div class="bookmark__card-info">
+                     <a href="" class="bookmark__card-link">
+                        <h4 class="bookmark__card-title">
+                           Bookmark
+                        </h4>
+                     </a>
+                     <p class="bookmark__card-text">
+                        This project required me to build a fully responsive landing page to the designs provided. I
+                        used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such
+                        as the features section.
+                     </p>
+                     <a href="bookmark.html" class="button button-white bookmark__card-btn">VIEW PROJECT</a>
+                  </div>
+                  <div class="bookmark__img-wraper">
+                     <a href="bookmark.html" class="bookmark__img-link">
+                        <img class="bookmark__card-img" src="./img/bookmark-preview-desktop.png" alt="bookmark img"
+                           width="540" height="500">
+                     </a>
+                  </div>
                </div>
-               <div class="aboutme__info">
-                  <h2 class="aboutme__title">
-                     About Me
-                  </h2>
-                  <p class="aboutme__text">
-                     I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing
-                     accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript
-                     code, I mostly use React, but I can adapt to whatever tools are required. I’m based in London, UK,
-                     but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll
-                     find me outdoors. I love being out in nature whether that’s going for a walk, run or cycling. I’d
-                     love you to check out my work.
-                  </p>
-                  <a href="portfolio.html" class="button button-white aboutme__button">GO TO PORTFOLIO</a>
+            </div>
+         </div>
+      </section>
+
+      <section class="main__section insure">
+         <div class="container">
+            <div class="insure__cards">
+               <div class="insure__card">
+                  <div class="insure__img-wraper">
+                     <a href="insure.html" class="insure__img-link">
+                        <img class="insure__card-img" src="./img/insure-preview-desktop.png" alt="insure img"
+                           width="540" height="500" srcset="./img/insure-preview-desktop.png 1x, ./img/insure-preview-desktop@2x.png 2x">
+                     </a>
+                  </div>
+                  <div class="insure__card-info">
+                     <a href="" class="insure__card-link">
+                        <h4 class="insure__card-title">
+                           Insure
+                        </h4>
+                     </a>
+                     <p class="insure__card-text">
+                        This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.
+                     </p>
+                     <a href="insure.html" class="button button-white insure__card-btn">VIEW PROJECT</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="main__section fylo">
+         <div class="container">
+            <div class="fylo__cards">
+               <div class="fylo__card">
+                  <div class="fylo__card-info">
+                     <a href="" class="fylo__card-link">
+                        <h4 class="fylo__card-title">
+                           Fylo
+                        </h4>
+                     </a>
+                     <p class="fylo__card-text">
+                        This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.
+                     </p>
+                     <a href="fylo.html" class="button button-white fylo__card-btn">VIEW PROJECT</a>
+                  </div>
+                  <div class="fylo__img-wraper">
+                     <a href="fylo.html" class="fylo__img-link">
+                        <img class="fylo__card-img" src="./img/fylo-preview-desktop.png" alt="fylo img"
+                           width="540" height="500">
+                     </a>
+                  </div>
                </div>
             </div>
          </div>
