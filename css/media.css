@@ -104,19 +104,19 @@
 
    /* MANAGE PAGE */
 
-   .hero-manage {
+   .hero-manage, .hero-bookmark, .insure-bookmark, .fylo-bookmark {
       padding: 0 0 22.5px 0;
    }
 
-   .manage-preview {
+   .manage-preview, .bookmark-preview, .insure-preview, .fylo-preview {
       padding: 22.5px 0;
    }
 
-   .manage-preview__content {
+   .manage-preview__content, .bookmark-preview__content, .insure-preview__content, .fylo-preview__content {
       flex-direction: column;
    }
 
-   .manage-preview__left {
+   .manage-preview__left, .bookmark-preview__left, .insure-preview__left, .fylo-preview__left {
       max-width: 100%;
       display: flex;
       justify-content: space-between;
@@ -127,11 +127,11 @@
       column-gap: 40px;
    }
 
-   .manage-preview__right {
+   .manage-preview__right, .bookmark-preview__right, .insure-preview__right, .fylo-preview__right {
       max-width: 100%;
    }
 
-   .manage-preview__right-text {
+   .manage-preview__right-text, .bookmark-preview__right-text, .insure-preview__right-text, .fylo-preview__right-text {
       max-width: 100%;
       margin-bottom: 30px;
    }
@@ -195,6 +195,10 @@
 }
 
 @media screen and (max-width: 500px) {
+   .header {
+      padding: 25px 0;
+   }
+
    .interested__content {
       flex-direction: column;
       row-gap: 10px;
@@ -230,17 +234,30 @@
 
    /* MANAGE PAGE */
 
-   .manage-preview__left {
+   .manage-preview__left, .bookmark-preview__left, .insure-preview__left, .fylo-preview__left  {
       flex-direction: column;
       margin-bottom: 25px;
    }
 
-   .manage-preview__info, .manage-preview__links {
+   .manage-preview__info, .bookmark-preview__info, .insure-preview__info, .fylo-preview__info  {
       width: 100%;
    }
 
-   .manage-preview__text {
+   .manage-preview__links, .bookmark-preview__links, .insure-preview__links, .fylo-preview__links {
+      width: 100%;
+   }
+
+   .manage-preview__text, .bookmark-preview__text, .insure-preview__text, .fylo-preview__text {
       max-width: 100%;
+   }
+
+   .navigation__content {
+      padding: 20px 0;
+   }
+
+   .navigation__link {
+      font-size: 24px;
+      line-height: 28px;
    }
 }
 
@@ -282,18 +299,23 @@
 
 
    /* MANAGE PAGE */
-   .manage-preview__title {
+   .manage-preview__title, .bookmark-preview__title, .insure-preview__title, .fylo-preview__title {
       font-size: 32px;
       line-height: 32px;
    }
 
-   .manage-preview__text {
+   .manage-preview__text, .bookmark-preview__text, .insure-preview__text, .fylo-preview__text {
       margin: 15px 0;
    }
 
-   .manage-preview__right-title {
+   .manage-preview__right-title, .bookmark-preview__right-title, .insure-preview__right-title, .fylo-preview__right-title {
       font-size: 28px;
       line-height: 32px;
       margin-bottom: 15px;
+   }
+
+   /* Navigation */
+   .navigation__back, .navigation__next {
+      column-gap: 10px;
    }
 }
